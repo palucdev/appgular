@@ -1,0 +1,11 @@
+$sidebar-width: 20%;
+$text-color: rgb(107, 116, 124);
+$panel-background: rgb(29,31,39);
+
+.content {
+    flex-grow: 1;
+}
+
+.side-panel {
+    width: $sidebar-width;
+}
