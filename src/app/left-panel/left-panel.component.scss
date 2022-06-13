@@ -1,0 +1,6 @@
+@import '../styles/variables.scss';
+
+:host {
+    background-color: $menu-background;
+    color: $menu-text-color;
+}

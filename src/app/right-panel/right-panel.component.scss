@@ -1,0 +1,6 @@
+@import '../styles/variables.scss';
+
+:host {
+    background-color: $content-background;
+    color: $content-text-color;
+}
