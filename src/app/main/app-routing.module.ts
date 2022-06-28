@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from '../pages/about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [

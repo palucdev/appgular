@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { LeftPanelComponent } from './left-panel/left-panel.component';
-import { RightPanelComponent } from './right-panel/right-panel.component';
-import { AboutComponent } from './about/about.component';
+import { LeftPanelComponent } from '../layout/left-panel/left-panel.component';
+import { RightPanelComponent } from '../layout/right-panel/right-panel.component';
+import { AboutComponent } from '../pages/about/about.component';
 
 @NgModule({
   declarations: [
