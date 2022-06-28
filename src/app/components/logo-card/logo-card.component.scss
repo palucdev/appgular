@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 15% 15% 5% 15%;
+    text-align: center;
+
+    .site-title {
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .site-subtitle {
+        font-style: italic;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    a {
+        width: 100%;
+        margin: auto;
+        padding-top: 10%;
+    }
+}
