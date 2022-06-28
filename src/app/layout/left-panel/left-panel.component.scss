@@ -4,3 +4,13 @@
     background-color: $menu-background;
     color: $menu-text-color;
 }
+
+.left-panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+app-social-bar {
+    margin-top: auto;
+}
